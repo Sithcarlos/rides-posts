@@ -7,11 +7,11 @@ CERT=/etc/nginx/certs/server.pem
 #CN=$SSL_DOMAIN
 #SAN=$SSL_ALT_NAME
 #nuevos parametros
-CN=
-PAIS=
-ESTADO=
-CIUDAD=
-EMPRESA=
+CN=localhost
+PAIS=RU
+ESTADO=MO
+CIUDAD=MO
+EMPRESA=UR
 
 if [ -f $KEY ] && [ -f $CERT ]; then
   echo "$ME: El certificado del servidor ya existe, no se hace algo."
